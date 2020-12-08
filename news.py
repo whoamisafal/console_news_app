@@ -1,7 +1,8 @@
 import requests
 import json
 
-newsApi="http://newsapi.org/v2/everything?q=bitcoin&from=2020-11-08&sortBy=publishedAt&apiKey=2625b85702544cf79cfa47f8b27070a0"
+newsApi="http://newsapi.org/v2/everything?q=bitcoin&from=2020-11-08&sortBy=publishedAt&apiKey=YourApiKey"
+#you can use your newsapi url
 
 
 
