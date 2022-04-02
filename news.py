@@ -1,7 +1,9 @@
+from cgi import test
 import requests
 import json
-
-newsApi="http://newsapi.org/v2/everything?q=bitcoin&from=2020-11-08&sortBy=publishedAt&apiKey=YourApiKey"
+api = "68a10d99d9fd4c78a10d52a8c472d9be"
+topic= "apple"
+newsApi="http://newsapi.org/v2/everything?q="+topic+"&apiKey="+api
 #you can use your newsapi url
 
 
